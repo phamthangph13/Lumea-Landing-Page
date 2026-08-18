@@ -4,13 +4,13 @@
       <div class="card-award-inner">
         <div class="card-award-title-wrapper-01">
           <span v-if="group === 'AWWWARDS'">
-            <img src="/images/awwwards.webp" width="112" height="66" alt="AWWWARDS" />
+            <img :src="$asset('/images/awwwards.webp')" width="112" height="66" alt="AWWWARDS" />
           </span>
           <span v-else-if="group === 'CSS DESIGN AWARDS'">
-            <img src="/images/cssda.webp" width="156" height="118" alt="CSS DESIGN AWARDS" />
+            <img :src="$asset('/images/cssda.webp')" width="156" height="118" alt="CSS DESIGN AWARDS" />
           </span>
           <span v-else-if="group === 'CSS WINNER'">
-            <img src="/images/csswinner.webp" width="156" height="98" alt="CSS WINNER" />
+            <img :src="$asset('/images/csswinner.webp')" width="156" height="98" alt="CSS WINNER" />
           </span>
         </div>
         <p class="card-award-title-wrapper-02">{{ rank }}</p>

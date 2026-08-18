@@ -37,12 +37,12 @@
                           <!--アーカイブページの時-->
                           <picture v-if="index === projectAndArchiveData.length - 1.0">
                             <source :srcset="`data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==`" media="(max-width: 767px)" />
-                            <img :src="`/images/about-sidescroll-archive-01.webp`" :width="`560`" :height="`410`" :alt="`archive`" />
+                            <img :src="$asset('/images/about-sidescroll-archive-01.webp')" :width="`560`" :height="`410`" :alt="`archive`" />
                           </picture>
                           <!--アーカイブページ以外の時-->
                           <picture v-else>
                             <source :srcset="`data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==`" media="(max-width: 767px)" />
-                            <img :src="`${data.aboutImages.img01.url}`" :width="`${data.aboutImages.img01.width}`" :height="`${data.aboutImages.img01.height}`" :alt="`${data.id}`" />
+                            <img :src="$asset(data.aboutImages.img01.url)" :width="`${data.aboutImages.img01.width}`" :height="`${data.aboutImages.img01.height}`" :alt="`${data.id}`" />
                           </picture>
                         </span>
                       </span>
@@ -51,12 +51,12 @@
                           <!--アーカイブページの時-->
                           <picture v-if="index === projectAndArchiveData.length - 1.0">
                             <source :srcset="`data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==`" media="(max-width: 767px)" />
-                            <img :src="`/images/about-sidescroll-archive-02.webp`" :width="`560`" :height="`410`" :alt="`archive`" />
+                            <img :src="$asset('/images/about-sidescroll-archive-02.webp')" :width="`560`" :height="`410`" :alt="`archive`" />
                           </picture>
                           <!--アーカイブページ以外の時-->
                           <picture v-else>
                             <source :srcset="`data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==`" media="(max-width: 767px)" />
-                            <img :src="`${data.aboutImages.img02.url}`" :width="`${data.aboutImages.img02.width}`" :height="`${data.aboutImages.img02.height}`" :alt="`${data.id}`" />
+                            <img :src="$asset(data.aboutImages.img02.url)" :width="`${data.aboutImages.img02.width}`" :height="`${data.aboutImages.img02.height}`" :alt="`${data.id}`" />
                           </picture>
                         </span>
                       </span>

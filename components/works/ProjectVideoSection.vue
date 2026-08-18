@@ -4,7 +4,7 @@
       <span ref="ContentsLoopVideo" class="contents-loop-video">
         <span class="contents-loop-video-shadow" :style="`box-shadow:0 22px 60px 0px ${currentProject.siteColor.shadowColor}`"></span>
         <span class="contents-loop-video-wrapper"
-          ><video :poster="`/images/poster-${currentProject.id}.webp`" :src="`/movie/${currentProject.id}.mp4`" playsinline autoplay loop muted disablePictureInPicture disableRemotePlayback></video
+          ><video :poster="$asset(`/images/poster-${currentProject.id}.webp`)" :src="$asset(`/movie/${currentProject.id}.mp4`)" playsinline autoplay loop muted disablePictureInPicture disableRemotePlayback></video
         ></span>
       </span>
       <AppLoopText :loop="isLoopTextState" :text="currentProject.title.short" />

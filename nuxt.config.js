@@ -112,6 +112,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    '~/plugins/asset.js',
     '~/plugins/viewport.client.js',
     '~/plugins/backface-fixed.client.js',
     '~/plugins/config.client.js',

@@ -3,8 +3,8 @@
     <div ref="HeroBg" class="hero-bg">
       <div ref="HeroImg" class="hero-img">
         <picture>
-          <source :srcset="`${currentProject.heroImg.sp.url}`" type="image/webp" media="(max-width: 767px)" />
-          <img :src="`${currentProject.heroImg.pc.url}`" :width="`${currentProject.heroImg.pc.width}`" :height="`${currentProject.heroImg.pc.height}`" :alt="currentProject.id" />
+          <source :srcset="$asset(currentProject.heroImg.sp.url)" type="image/webp" media="(max-width: 767px)" />
+          <img :src="$asset(currentProject.heroImg.pc.url)" :width="`${currentProject.heroImg.pc.width}`" :height="`${currentProject.heroImg.pc.height}`" :alt="currentProject.id" />
         </picture>
       </div>
       <div class="pc-only">

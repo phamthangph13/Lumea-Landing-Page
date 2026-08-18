@@ -9,7 +9,7 @@
         <div ref="IntroBg" class="intro-bg">
           <div ref="IntroBgClip" class="intro-bg-clip">
             <div class="intro-bg-wrapper">
-              <div ref="IntroBgCanvas" class="intro-bg-canvas" :data-pcimg="`/images/intro.webp`" :data-spimg="`/images/intro-sp.webp`"></div>
+              <div ref="IntroBgCanvas" class="intro-bg-canvas" :data-pcimg="$asset('/images/intro.webp')" :data-spimg="$asset('/images/intro-sp.webp')"></div>
             </div>
             <h2 class="intro-title">
               <span class="intro-title-read-area">

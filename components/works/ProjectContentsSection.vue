@@ -14,7 +14,7 @@
         </div>
         <div v-for="(image, index) in currentProject.contentsImg" :key="index" ref="ContentsImgWrapper" class="contents-img-wrapper" :class="`contents-img-wrapper-${image.fieldId}`">
           <picture>
-            <img ref="ContentsImg" class="contents-img" :src="`${image.object.url}`" :width="`${image.object.width}`" :height="`${image.object.height}`" :alt="currentProject.id" />
+            <img ref="ContentsImg" class="contents-img" :src="$asset(image.object.url)" :width="`${image.object.width}`" :height="`${image.object.height}`" :alt="currentProject.id" />
           </picture>
         </div>
       </div>

@@ -1,11 +1,11 @@
 <template>
   <div class="archive js-hold-target">
     <ul ref="ArchiveList" class="archive-list">
-      <li v-for="(archive, index) in archives" :key="index" ref="ArchiveItem" class="archive-item" :data-pcimg="`/images/${archive.image.pc}`" :data-spimg="`/images/${archive.image.sp}`">
+      <li v-for="(archive, index) in archives" :key="index" ref="ArchiveItem" class="archive-item" :data-pcimg="$asset(`/images/${archive.image.pc}`)" :data-spimg="$asset(`/images/${archive.image.sp}`)">
         <a :href="`${archive.link}`" class="archive-link" target="_blank" rel="noopener">
           <picture>
-            <source :srcset="`/images/${archive.image.sp}`" media="(max-width: 767px)" />
-            <img class="archive-img" :src="`/images/${archive.image.pc}`" width="440" height="680" :alt="`${archive.fullTitle}`" />
+            <source :srcset="$asset(`/images/${archive.image.sp}`)" media="(max-width: 767px)" />
+            <img class="archive-img" :src="$asset(`/images/${archive.image.pc}`)" width="440" height="680" :alt="`${archive.fullTitle}`" />
           </picture>
         </a>
       </li>

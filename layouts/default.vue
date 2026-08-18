@@ -19,12 +19,12 @@
         >
           <picture>
             <source
-              :srcset="`${data.heroImg.sp.url}`"
+              :srcset="$asset(data.heroImg.sp.url)"
               type="image/webp"
               media="(max-width: 767px)"
             />
             <img
-              :src="`${data.heroImg.pc.url}`"
+              :src="$asset(data.heroImg.pc.url)"
               :width="`${data.heroImg.pc.width}`"
               :height="`${data.heroImg.pc.height}`"
               :alt="`${data.id}`"
@@ -377,16 +377,16 @@ export default {
     const imgPath = []
     imgPath.push(
       {
-        pc: `${this.pickupData[0].heroImg.pc.url}`,
-        sp: `${this.pickupData[0].heroImg.sp.url}`,
+        pc: this.$asset(this.pickupData[0].heroImg.pc.url),
+        sp: this.$asset(this.pickupData[0].heroImg.sp.url),
       },
       {
-        pc: `${this.pickupData[1].heroImg.pc.url}`,
-        sp: `${this.pickupData[1].heroImg.sp.url}`,
+        pc: this.$asset(this.pickupData[1].heroImg.pc.url),
+        sp: this.$asset(this.pickupData[1].heroImg.sp.url),
       },
       {
-        pc: `${this.pickupData[2].heroImg.pc.url}`,
-        sp: `${this.pickupData[2].heroImg.sp.url}`,
+        pc: this.$asset(this.pickupData[2].heroImg.pc.url),
+        sp: this.$asset(this.pickupData[2].heroImg.sp.url),
       }
     )
 

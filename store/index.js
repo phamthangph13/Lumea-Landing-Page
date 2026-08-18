@@ -1,11 +1,15 @@
 import { mockProjects, mockContact, mockAwards } from '@/assets/json/mockData'
 
 export const state = () => ({
-  projectData: [],
-  contactData: [],
-  pickupData: [],
-  awardData: [],
-  awardDataLength: {},
+  projectData: mockProjects,
+  contactData: mockContact,
+  pickupData: mockProjects.filter((v) => v.pickup && v.pickup.pickupFlag),
+  awardData: mockAwards,
+  awardDataLength: {
+    awwwwardsTotalLength: 0,
+    cssdesignawardsTotalLength: 0,
+    csswinnerTotalLength: 0,
+  },
 });
 
 export const actions = {

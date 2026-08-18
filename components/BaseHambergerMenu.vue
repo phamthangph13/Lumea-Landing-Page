@@ -33,7 +33,7 @@
                 <AppPageTransitionBg v-if="index === projectAndArchiveData.length - 1.0" :url="`/archive`" :color="'#2c3e30'" class="hambergerMenu-item-link">
                   <span class="hambergerMenu-item-img">
                     <picture>
-                      <img :src="`/images/hambergermenu-archive.webp`" :width="`180`" :height="`180`" :alt="`archive`" />
+                      <img :src="$asset('/images/hambergermenu-archive.webp')" :width="`180`" :height="`180`" :alt="`archive`" />
                     </picture>
                   </span>
                   <span>
@@ -45,7 +45,7 @@
                 <AppPageTransitionImage v-else :url="`/works/${data.id}`" :index="index" class="hambergerMenu-item-link">
                   <span class="hambergerMenu-item-img">
                     <picture>
-                      <img :src="`${data.hambergerMenuImg.url}`" :width="`${data.hambergerMenuImg.width}`" :height="`${data.hambergerMenuImg.height}`" :alt="`${data.id}`" />
+                      <img :src="$asset(data.hambergerMenuImg.url)" :width="`${data.hambergerMenuImg.width}`" :height="`${data.hambergerMenuImg.height}`" :alt="`${data.id}`" />
                     </picture>
                   </span>
                   <span>
