@@ -1,0 +1,164 @@
+[
+  {
+    "fullTitle": "CĂN NGUYÊN · NẾP NHÀ",
+    "shortTitle": "CN",
+    "link": "/",
+    "image": {
+      "pc" : "archive-01.webp",
+      "sp" : "archive-01-sp.webp"
+    }
+  },
+  {
+    "fullTitle": "SEN MINH · TRÍ SÁNG",
+    "shortTitle": "SM",
+    "link": "/",
+    "image": {
+      "pc" : "archive-02.webp",
+      "sp" : "archive-02-sp.webp"
+    }
+  },
+  {
+    "fullTitle": "THUẬN NHIÊN · HÀI HÒA",
+    "shortTitle": "TN",
+    "link": "/",
+    "image": {
+      "pc" : "archive-03.webp",
+      "sp" : "archive-03-sp.webp"
+    }
+  },
+  {
+    "fullTitle": "HƯƠNG BẢN ĐỊA VIỆT",
+    "shortTitle": "HBD",
+    "link": "/",
+    "image": {
+      "pc" : "archive-04.webp",
+      "sp" : "archive-04-sp.webp"
+    }
+  },
+  {
+    "fullTitle": "NGHIÊN CỨU & R&D",
+    "shortTitle": "RD",
+    "link": "/",
+    "image": {
+      "pc" : "archive-05.webp",
+      "sp" : "archive-05-sp.webp"
+    }
+  },
+  {
+    "fullTitle": "HỆ SINH THÁI RITUAL",
+    "shortTitle": "HST",
+    "link": "/",
+    "image": {
+      "pc" : "archive-06.webp",
+      "sp" : "archive-06-sp.webp"
+    }
+  },
+  {
+    "fullTitle": "HOUSE OF SCENT",
+    "shortTitle": "HOS",
+    "link": "/",
+    "image": {
+      "pc" : "archive-07.webp",
+      "sp" : "archive-07-sp.webp"
+    }
+  },
+  {
+    "fullTitle": "HƯƠNG CÂY CỎ VIỆT",
+    "shortTitle": "HCC",
+    "link": "/",
+    "image": {
+      "pc" : "archive-08.webp",
+      "sp" : "archive-08-sp.webp"
+    }
+  },
+  {
+    "fullTitle": "HƯƠNG GỖ & TRẦM",
+    "shortTitle": "HGT",
+    "link": "/",
+    "image": {
+      "pc" : "archive-09.webp",
+      "sp" : "archive-09-sp.webp"
+    }
+  },
+  {
+    "fullTitle": "HƯƠNG TRÀ & KÝ ỨC",
+    "shortTitle": "HTK",
+    "link": "/",
+    "image": {
+      "pc" : "archive-10.webp",
+      "sp" : "archive-10-sp.webp"
+    }
+  },
+  {
+    "fullTitle": "HƯƠNG SEN BÁCH DIỆP",
+    "shortTitle": "SBD",
+    "link": "/",
+    "image": {
+      "pc" : "archive-11.webp",
+      "sp" : "archive-11-sp.webp"
+    }
+  },
+  {
+    "fullTitle": "HƯƠNG VỎ BƯỞI & QUẾ",
+    "shortTitle": "HBQ",
+    "link": "/",
+    "image": {
+      "pc" : "archive-12.webp",
+      "sp" : "archive-12-sp.webp"
+    }
+  },
+  {
+    "fullTitle": "KHOA HỌC & CÔNG NGHỆ",
+    "shortTitle": "KHC",
+    "link": "/",
+    "image": {
+      "pc" : "archive-13.webp",
+      "sp" : "archive-13-sp.webp"
+    }
+  },
+  {
+    "fullTitle": "THIẾT KẾ ĐƯƠNG ĐẠI",
+    "shortTitle": "TKD",
+    "link": "/",
+    "image": {
+      "pc" : "archive-14.webp",
+      "sp" : "archive-14-sp.webp"
+    }
+  },
+  {
+    "fullTitle": "NGÔI NHÀ HƯƠNG VIỆT",
+    "shortTitle": "NHV",
+    "link": "/",
+    "image": {
+      "pc" : "archive-15.webp",
+      "sp" : "archive-15-sp.webp"
+    }
+  },
+  {
+    "fullTitle": "SỐNG HÀI HÒA",
+    "shortTitle": "SHH",
+    "link": "/",
+    "image": {
+      "pc" : "archive-16.webp",
+      "sp" : "archive-16-sp.webp"
+    }
+  },
+  {
+    "fullTitle": "TRI THỨC BẢN ĐỊA",
+    "shortTitle": "TTB",
+    "link": "/",
+    "image": {
+      "pc" : "archive-17.webp",
+      "sp" : "archive-01-sp.webp"
+    }
+  },
+  {
+    "fullTitle": "HÀNH TRÌNH CỘI NGUỒN",
+    "shortTitle": "TCN",
+    "link": "/",
+    "image": {
+      "pc" : "archive-18.webp",
+      "sp" : "archive-01-sp.webp"
+    }
+  }
+]
