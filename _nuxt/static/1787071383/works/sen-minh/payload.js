@@ -1,0 +1,1 @@
+__NUXT_JSONP__("works/sen-minh", {data:[{_img:{}}],fetch:{},mutations:[]});

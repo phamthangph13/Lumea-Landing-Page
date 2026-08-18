@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/archive", {data:[{_img:{}}],fetch:{},mutations:[]});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("works/can-nguyen", {data:[{_img:{}}],fetch:{},mutations:[]});
