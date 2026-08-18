@@ -133,6 +133,10 @@ export default {
 
   loading: false,
 
+  router: {
+    base: process.env.ROUTER_BASE || '/'
+  },
+
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     'nuxt-webfontloader',
