@@ -13,7 +13,7 @@
       <AppCard
         :component-name="'works'"
         :shadow-color="currentProject.siteColor.shadowColor"
-        :color="currentProject.siteColor.allTextColor"
+        :color="'#1a1a1a'"
         :external-link="currentProject.siteLink"
         :xspeed="0.04"
         :yspeed="0.04"

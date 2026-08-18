@@ -136,33 +136,33 @@ export default {
 
 .card-title-wrapper-01 {
   display: block;
-  margin: 0 0 32px 0;
+  margin: 0 0 24px 0;
 
   @include sp() {
-    margin: 0 0 24px 0;
+    margin: 0 0 18px 0;
   }
 }
 
 .card-title-wrapper-01-block {
   display: block;
-  font-size: 16px;
+  font-size: 14px;
   font-family: $helvetica;
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.25;
 
   @include sp() {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   &:first-of-type {
-    font-size: 28px;
+    font-size: 26px;
     text-indent: -2px;
     line-height: 1;
 
     @include sp() {
       display: inline-block;
       margin: 0 0 0 -2px;
-      font-size: 22px;
+      font-size: 20px;
       line-height: 0.9;
       text-indent: 0;
     }
@@ -177,7 +177,7 @@ export default {
   font-family: $helvetica;
   font-weight: 500;
   letter-spacing: 0.02em;
-  line-height: 1.35;
+  line-height: 1.45;
   word-break: break-word;
 
   @include sp() {
@@ -187,21 +187,21 @@ export default {
 
 .card-title-wrapper-03 {
   position: absolute;
-  bottom: -4px;
+  bottom: 0;
   left: 0;
   right: 0;
   width: 100%;
-  font-size: 58px;
+  font-size: 34px;
   font-family: $sixcaps;
   font-weight: 700;
   letter-spacing: -0.01em;
+  line-height: 1.1;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 
   @include sp() {
-    bottom: -2px;
-    font-size: 42px;
+    font-size: 26px;
   }
 }
 </style>
