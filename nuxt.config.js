@@ -177,6 +177,7 @@ export default {
   },
 
   generate: {
+    fallback: '404.html',
     async routes() {
       const generates = []
 
