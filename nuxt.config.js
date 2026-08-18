@@ -154,7 +154,7 @@ export default {
 
   webfontloader: {
     google: {
-      families: ['Six+Caps']
+      families: ['Barlow+Condensed:600,700,800,900:latin,vietnamese', 'Plus+Jakarta+Sans:400,500,600,700:latin,vietnamese']
     }
   },
 

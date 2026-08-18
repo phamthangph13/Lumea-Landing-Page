@@ -12,24 +12,24 @@
       <div class="card-title-wrapper-03">
         <span class="pc-only">
           <a v-if="title.link" :href="title.link" target="_blank" rel="noopener" class="card-title-wrapper-03-link">
-            <AppTextAnimation :state="state" :rotate="$BASEROTATE.left" :text="title.text" :sp-animation="false" />
             <span v-if="title.subtext" class="card-sub-title">
-              <AppTextAnimation :state="state" :start="0.28" :rotate="$BASEROTATE.left" :text="title.subtext" :sp-animation="false" />
+              <AppTextAnimation :state="state" :start="0.1" :rotate="$BASEROTATE.left" :text="title.subtext" :sp-animation="false" />
             </span>
+            <AppTextAnimation :state="state" :start="0.25" :rotate="$BASEROTATE.left" :text="title.text" :sp-animation="false" />
           </a>
           <span v-else class="card-title-wrapper-03-link">
-            <AppTextAnimation :state="state" :rotate="$BASEROTATE.left" :text="title.text" :sp-animation="false" />
             <span v-if="title.subtext" class="card-sub-title">
-              <AppTextAnimation :state="state" :start="0.28" :rotate="$BASEROTATE.left" :text="title.subtext" :sp-animation="false" />
+              <AppTextAnimation :state="state" :start="0.1" :rotate="$BASEROTATE.left" :text="title.subtext" :sp-animation="false" />
             </span>
+            <AppTextAnimation :state="state" :start="0.25" :rotate="$BASEROTATE.left" :text="title.text" :sp-animation="false" />
           </span>
         </span>
         <span class="sp-only">
           <a :href="title.link" target="_blank" rel="noopener">
-            {{ title.text }}
             <span v-if="title.subtext" class="card-sub-title">
               {{ title.subtext }}
             </span>
+            {{ title.text }}
           </a>
         </span>
       </div>
@@ -100,37 +100,43 @@ export default {
 
 .card-title-wrapper-01 {
   display: block;
-  margin: 0 0 32px 0;
+  margin: 0 0 24px 0;
 
   @include sp() {
-    margin: 0 0 24px 0;
+    margin: 0 0 18px 0;
   }
 }
 
 .card-title-wrapper-01-block {
   display: block;
-  font-size: 15px;
+  font-size: 14px;
   font-family: $helvetica;
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.25;
 
   @include sp() {
-    font-size: 13px;
+    font-size: 12px;
   }
 
   &:first-of-type {
-    font-size: 28px;
+    font-size: 26px;
     text-indent: -2px;
     line-height: 1;
 
     @include sp() {
       display: inline-block;
       margin: 0 0 0 -2px;
-      font-size: 22px;
+      font-size: 20px;
       line-height: 0.9;
       text-indent: 0;
     }
   }
+}
+
+.card-title-wrapper-02 {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 16px 0;
 }
 
 .card-title-wrapper-02-block {
@@ -141,44 +147,54 @@ export default {
   font-family: $helvetica;
   font-weight: 500;
   letter-spacing: 0.02em;
-  line-height: 1.4;
+  line-height: 1.45;
   word-break: break-word;
 
   @include sp() {
     font-size: 10px;
   }
+
+  & a {
+    color: inherit;
+    text-decoration: none;
+    transition: opacity 0.2s ease;
+
+    &:hover {
+      opacity: 0.7;
+    }
+  }
 }
 
 .card-title-wrapper-03 {
   position: absolute;
-  bottom: -4px;
+  bottom: 0;
   left: 0;
   right: 0;
   width: 100%;
-  font-size: 58px;
+  font-size: 34px;
   font-family: $sixcaps;
   font-weight: 700;
   letter-spacing: -0.01em;
+  line-height: 1.1;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 
   @include sp() {
-    bottom: -2px;
-    font-size: 42px;
+    font-size: 26px;
   }
 
   & .card-sub-title {
-    position: absolute;
-    top: 4px;
-    right: 0;
-    font-size: 11px;
+    display: block;
+    margin-bottom: 2px;
+    font-size: 10px;
     font-family: $helvetica;
-    font-weight: 600;
-    letter-spacing: 0.02em;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #9e4732;
+    text-transform: uppercase;
 
     @include sp() {
-      top: 2px;
       font-size: 9px;
     }
   }
