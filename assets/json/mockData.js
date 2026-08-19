@@ -32,16 +32,16 @@ export const mockProjects = [
     detailsMainTextSp: { text01: 'CĂN NGUYÊN', text02: 'NẾP NHÀ' },
     detailsMainDescSp: { text01: 'GỐC VIỆT · BẢN SẮC', text02: 'HƯƠNG KÝ ỨC' },
     heroImg: {
-      pc: { url: '/images/poster-asovision.webp', width: 1440, height: 900 },
-      sp: { url: '/images/poster-asovision.webp', width: 750, height: 1334 }
+      pc: { url: '/images/poster-can-nguyen.webp', width: 1440, height: 900 },
+      sp: { url: '/images/poster-can-nguyen.webp', width: 750, height: 1334 }
     },
-    hambergerMenuImg: { url: '/images/poster-asovision.webp', width: 180, height: 180 },
+    hambergerMenuImg: { url: '/images/poster-can-nguyen.webp', width: 180, height: 180 },
     aboutImages: {
-      img01: { url: '/images/poster-asovision.webp', width: 560, height: 410 },
-      img02: { url: '/images/poster-asovision.webp', width: 560, height: 410 }
+      img01: { url: '/images/poster-can-nguyen.webp', width: 560, height: 410 },
+      img02: { url: '/images/poster-can-nguyen.webp', width: 560, height: 410 }
     },
     contentsImg: [
-      { fieldId: 'default', object: { url: '/images/poster-asovision.webp', width: 1000, height: 600 } }
+      { fieldId: 'default', object: { url: '/images/poster-can-nguyen.webp', width: 1000, height: 600 } }
     ]
   },
   {
@@ -77,16 +77,16 @@ export const mockProjects = [
     detailsMainTextSp: { text01: 'SEN MINH', text02: 'TRI THỨC' },
     detailsMainDescSp: { text01: 'KHOA HỌC', text02: 'CÔNG THỨC CHUẨN' },
     heroImg: {
-      pc: { url: '/images/poster-basta.webp', width: 1440, height: 900 },
-      sp: { url: '/images/poster-basta.webp', width: 750, height: 1334 }
+      pc: { url: '/images/poster-sen-minh.webp', width: 1440, height: 900 },
+      sp: { url: '/images/poster-sen-minh.webp', width: 750, height: 1334 }
     },
-    hambergerMenuImg: { url: '/images/poster-basta.webp', width: 180, height: 180 },
+    hambergerMenuImg: { url: '/images/poster-sen-minh.webp', width: 180, height: 180 },
     aboutImages: {
-      img01: { url: '/images/poster-basta.webp', width: 560, height: 410 },
-      img02: { url: '/images/poster-basta.webp', width: 560, height: 410 }
+      img01: { url: '/images/poster-sen-minh.webp', width: 560, height: 410 },
+      img02: { url: '/images/poster-sen-minh.webp', width: 560, height: 410 }
     },
     contentsImg: [
-      { fieldId: 'default', object: { url: '/images/poster-basta.webp', width: 1000, height: 600 } }
+      { fieldId: 'default', object: { url: '/images/poster-sen-minh.webp', width: 1000, height: 600 } }
     ]
   },
   {
@@ -122,16 +122,16 @@ export const mockProjects = [
     detailsMainTextSp: { text01: 'THUẬN NHIÊN', text02: 'HÀI HÒA' },
     detailsMainDescSp: { text01: 'HÀI HÒA', text02: 'TỰ NHIÊN' },
     heroImg: {
-      pc: { url: '/images/poster-frontier.webp', width: 1440, height: 900 },
-      sp: { url: '/images/poster-frontier.webp', width: 750, height: 1334 }
+      pc: { url: '/images/poster-thuan-nhien.webp', width: 1440, height: 900 },
+      sp: { url: '/images/poster-thuan-nhien.webp', width: 750, height: 1334 }
     },
-    hambergerMenuImg: { url: '/images/poster-frontier.webp', width: 180, height: 180 },
+    hambergerMenuImg: { url: '/images/poster-thuan-nhien.webp', width: 180, height: 180 },
     aboutImages: {
-      img01: { url: '/images/poster-frontier.webp', width: 560, height: 410 },
-      img02: { url: '/images/poster-frontier.webp', width: 560, height: 410 }
+      img01: { url: '/images/poster-thuan-nhien.webp', width: 560, height: 410 },
+      img02: { url: '/images/poster-thuan-nhien.webp', width: 560, height: 410 }
     },
     contentsImg: [
-      { fieldId: 'default', object: { url: '/images/poster-frontier.webp', width: 1000, height: 600 } }
+      { fieldId: 'default', object: { url: '/images/poster-thuan-nhien.webp', width: 1000, height: 600 } }
     ]
   },
   {
@@ -167,16 +167,16 @@ export const mockProjects = [
     detailsMainTextSp: { text01: 'HOUSE OF SCENT', text02: 'VIỆT NAM' },
     detailsMainDescSp: { text01: 'TẦM NHÌN', text02: 'QUỐC TẾ' },
     heroImg: {
-      pc: { url: '/images/poster-ketakuma.webp', width: 1440, height: 900 },
-      sp: { url: '/images/poster-ketakuma.webp', width: 750, height: 1334 }
+      pc: { url: '/images/poster-house-of-scent.webp', width: 1440, height: 900 },
+      sp: { url: '/images/poster-house-of-scent.webp', width: 750, height: 1334 }
     },
-    hambergerMenuImg: { url: '/images/poster-ketakuma.webp', width: 180, height: 180 },
+    hambergerMenuImg: { url: '/images/poster-house-of-scent.webp', width: 180, height: 180 },
     aboutImages: {
-      img01: { url: '/images/poster-ketakuma.webp', width: 560, height: 410 },
-      img02: { url: '/images/poster-ketakuma.webp', width: 560, height: 410 }
+      img01: { url: '/images/poster-house-of-scent.webp', width: 560, height: 410 },
+      img02: { url: '/images/poster-house-of-scent.webp', width: 560, height: 410 }
     },
     contentsImg: [
-      { fieldId: 'default', object: { url: '/images/poster-ketakuma.webp', width: 1000, height: 600 } }
+      { fieldId: 'default', object: { url: '/images/poster-house-of-scent.webp', width: 1000, height: 600 } }
     ]
   },
   {
@@ -212,16 +212,16 @@ export const mockProjects = [
     detailsMainTextSp: { text01: 'VIỆN NGHIÊN CỨU', text02: 'ĐỒNG HÀNH' },
     detailsMainDescSp: { text01: 'CÔNG THỨC', text02: 'CHUẨN MỰC' },
     heroImg: {
-      pc: { url: '/images/poster-mtrust.webp', width: 1440, height: 900 },
-      sp: { url: '/images/poster-mtrust.webp', width: 750, height: 1334 }
+      pc: { url: '/images/poster-r-and-d.webp', width: 1440, height: 900 },
+      sp: { url: '/images/poster-r-and-d.webp', width: 750, height: 1334 }
     },
-    hambergerMenuImg: { url: '/images/poster-mtrust.webp', width: 180, height: 180 },
+    hambergerMenuImg: { url: '/images/poster-r-and-d.webp', width: 180, height: 180 },
     aboutImages: {
-      img01: { url: '/images/poster-mtrust.webp', width: 560, height: 410 },
-      img02: { url: '/images/poster-mtrust.webp', width: 560, height: 410 }
+      img01: { url: '/images/poster-r-and-d.webp', width: 560, height: 410 },
+      img02: { url: '/images/poster-r-and-d.webp', width: 560, height: 410 }
     },
     contentsImg: [
-      { fieldId: 'default', object: { url: '/images/poster-mtrust.webp', width: 1000, height: 600 } }
+      { fieldId: 'default', object: { url: '/images/poster-r-and-d.webp', width: 1000, height: 600 } }
     ]
   },
   {
@@ -257,16 +257,16 @@ export const mockProjects = [
     detailsMainTextSp: { text01: 'HỆ SINH THÁI', text02: 'MÙI HƯƠNG' },
     detailsMainDescSp: { text01: 'ĐA DẠNG', text02: 'CÂU CHUYỆN' },
     heroImg: {
-      pc: { url: '/images/poster-redandgreen.webp', width: 1440, height: 900 },
-      sp: { url: '/images/poster-redandgreen.webp', width: 750, height: 1334 }
+      pc: { url: '/images/poster-he-sinh-thai.webp', width: 1440, height: 900 },
+      sp: { url: '/images/poster-he-sinh-thai.webp', width: 750, height: 1334 }
     },
-    hambergerMenuImg: { url: '/images/poster-redandgreen.webp', width: 180, height: 180 },
+    hambergerMenuImg: { url: '/images/poster-he-sinh-thai.webp', width: 180, height: 180 },
     aboutImages: {
-      img01: { url: '/images/poster-redandgreen.webp', width: 560, height: 410 },
-      img02: { url: '/images/poster-redandgreen.webp', width: 560, height: 410 }
+      img01: { url: '/images/poster-he-sinh-thai.webp', width: 560, height: 410 },
+      img02: { url: '/images/poster-he-sinh-thai.webp', width: 560, height: 410 }
     },
     contentsImg: [
-      { fieldId: 'default', object: { url: '/images/poster-redandgreen.webp', width: 1000, height: 600 } }
+      { fieldId: 'default', object: { url: '/images/poster-he-sinh-thai.webp', width: 1000, height: 600 } }
     ]
   },
   {
@@ -302,16 +302,16 @@ export const mockProjects = [
     detailsMainTextSp: { text01: 'THIẾT KẾ', text02: 'ĐƯƠNG ĐẠI' },
     detailsMainDescSp: { text01: 'TINH TẾ', text02: 'PHÁ CÁCH' },
     heroImg: {
-      pc: { url: '/images/poster-yakudoh.webp', width: 1440, height: 900 },
-      sp: { url: '/images/poster-yakudoh.webp', width: 750, height: 1334 }
+      pc: { url: '/images/poster-identity-design.webp', width: 1440, height: 900 },
+      sp: { url: '/images/poster-identity-design.webp', width: 750, height: 1334 }
     },
-    hambergerMenuImg: { url: '/images/poster-yakudoh.webp', width: 180, height: 180 },
+    hambergerMenuImg: { url: '/images/poster-identity-design.webp', width: 180, height: 180 },
     aboutImages: {
-      img01: { url: '/images/poster-yakudoh.webp', width: 560, height: 410 },
-      img02: { url: '/images/poster-yakudoh.webp', width: 560, height: 410 }
+      img01: { url: '/images/poster-identity-design.webp', width: 560, height: 410 },
+      img02: { url: '/images/poster-identity-design.webp', width: 560, height: 410 }
     },
     contentsImg: [
-      { fieldId: 'default', object: { url: '/images/poster-yakudoh.webp', width: 1000, height: 600 } }
+      { fieldId: 'default', object: { url: '/images/poster-identity-design.webp', width: 1000, height: 600 } }
     ]
   }
 ]
