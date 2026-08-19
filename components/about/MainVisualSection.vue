@@ -223,17 +223,17 @@ export default {
 .hero-title {
   position: relative;
   color: $black;
-  font-size: vw(128);
+  font-size: vw(114);
   font-family: $sixcaps;
   font-weight: 700;
   letter-spacing: -0.002em;
 
   @include tab-vertical() {
-    font-size: vw(110);
+    font-size: vw(100);
   }
 
   @include sp() {
-    font-size: vw_sp(140);
+    font-size: vw_sp(130);
   }
 }
 
@@ -262,18 +262,19 @@ export default {
 
 .hero-title-wrapper-01 {
   width: vw(450);
-  margin: 0 0 24px vw(310);
+  margin: 0 0 24px vw(240);
 
   @include tab-vertical() {
     width: vw(394);
-    margin: 0 0 24px vw(270);
+    margin: 0 0 24px vw(180);
   }
 }
 
 .hero-title-wrapper-02 {
   display: flex;
   justify-content: space-between;
-  width: vw(987);
+  width: auto;
+  max-width: vw(987);
   margin: 0 0 24px vw(46);
   padding: 0 26px 0 34px;
 
@@ -285,7 +286,8 @@ export default {
 .hero-title-wrapper-03 {
   display: flex;
   justify-content: space-between;
-  width: vw(860);
+  width: auto;
+  max-width: vw(860);
   margin: 0 0 24px vw(112);
 
   @include tab-vertical() {
@@ -294,10 +296,11 @@ export default {
 }
 
 .hero-title-wrapper-04 {
-  width: vw(1077);
+  width: auto;
+  max-width: 96vw;
 
   @include tab-vertical() {
-    width: vw(934);
+    width: auto;
   }
 }
 

@@ -9,29 +9,29 @@
             </span>
             <span class="pc-only">
               <span class="about-title-wrapper about-title-wrapper-01">
-                <AppTextAnimation :state="isTextSegmentState" :rotate="$BASEROTATE.right" :text="'TRONG MỘT THẾ GIỚI CÀNG HIỆN ĐẠI, CÀNG NHANH VÀ SỐ HÓA,'" :sp-animation="false" />
+                <AppTextAnimation :state="isTextSegmentState" :rotate="$BASEROTATE.right" :text="'TRONG THẾ GIỚI HIỆN ĐẠI & SỐ HÓA,'" :sp-animation="false" />
               </span>
               <span class="about-title-wrapper about-title-wrapper-02">
                 <AppTextAnimation
                   :state="isTextSegmentState"
                   :start="0.12"
                   :rotate="$BASEROTATE.left"
-                  :text="'NGƯỜI TRẺ CÓ THỂ TÌM LẠI SỰ KẾT NỐI VỚI NGUỒN CỘI, VỚI CHÍNH'"
+                  :text="'LÀM SAO TÌM LẠI SỰ KẾT NỐI VỚI NGUỒN CỘI?'"
                   :sp-animation="false"
                 />
               </span>
               <span class="about-title-wrapper about-title-wrapper-03">
-                <AppTextAnimation :state="isTextSegmentState" :start="0.24" :rotate="$BASEROTATE.right" text="MÌNH VÀ VỚI THIÊN NHIÊN BẰNG CÁCH NÀO? CÂU TRẢ LỜI CỦA CĂN" :sp-animation="false" />
+                <AppTextAnimation :state="isTextSegmentState" :start="0.24" :rotate="$BASEROTATE.right" text="'CÂU TRẢ LỜI CỦA CĂN NGUYÊN LÀ HƯƠNG —'" :sp-animation="false" />
               </span>
               <span class="about-title-wrapper about-title-wrapper-04">
-                <AppTextAnimation :state="isTextSegmentState" :start="0.36" :rotate="$BASEROTATE.left" :text="'NGUYÊN LÀ HƯƠNG — HÀNH TRÌNH TÌM VỀ BẢN SẮC VIỆT.'" :sp-animation="false" />
+                <AppTextAnimation :state="isTextSegmentState" :start="0.36" :rotate="$BASEROTATE.left" :text="'HÀNH TRÌNH TÌM VỀ BẢN SẮC VIỆT.'" :sp-animation="false" />
               </span>
             </span>
             <span class="sp-only">
-              <span class="about-title-wrapper-sp about-title-wrapper-01-sp">TRONG MỘT THẾ GIỚI HIỆN ĐẠI,</span>CÂU TRẢ LỜI CỦA CĂN NGUYÊN<br />LÀ HƯƠNG — HÀNH TRÌNH<br />TÌM VỀ CỘI NGUỒN<br />VÀ BẢN SẮC VIỆT NAM.
+              <span class="about-title-wrapper-sp about-title-wrapper-01-sp">TRONG THẾ GIỚI HIỆN ĐẠI,</span>CÂU TRẢ LỜI CỦA CĂN NGUYÊN<br />LÀ HƯƠNG — HÀNH TRÌNH<br />TÌM VỀ CỘI NGUỒN<br />VÀ BẢN SẮC VIỆT.
             </span>
             <span class="pc-only">
-              <AppBounceLine :state="isTextUnderlineState" :start="0.6" :width="1000" :origin="'left'" :sp-animation="false" :modifier="'index-about'" />
+              <AppBounceLine :state="isTextUnderlineState" :start="0.6" :width="980" :origin="'left'" :sp-animation="false" :modifier="'index-about'" />
             </span>
             <span class="sp-only">
               <span class="about-text-underline"></span>
@@ -117,33 +117,33 @@ export default {
 
 .about-title {
   position: relative;
-  width: vw(1090);
+  width: 100%;
+  max-width: vw(1080);
   margin: 0 0 85px 0;
-  padding: 0 56px 0 40px;
+  padding: 0 40px 0 40px;
   color: $darkBlue;
-  font-size: vw(80);
+  font-size: vw(64);
   font-family: $sixcaps;
   text-transform: uppercase;
-  line-height: 0.964;
+  line-height: 1.05;
 
   @include tab {
-    width: vw(1070);
-    padding: 0 vw(56) 0 vw(40);
-    font-size: vw(76);
-    line-height: 1;
+    max-width: 100%;
+    padding: 0 vw(30);
+    font-size: vw(56);
+    line-height: 1.08;
   }
 
   @include tab-vertical() {
-    width: vw(998);
-    font-size: vw(70);
+    font-size: vw(50);
   }
 
   @include sp() {
     width: auto;
     margin: 0 0 54px 0;
     padding: 0 vw_sp(20);
-    font-size: vw_sp(120);
-    white-space: nowrap;
+    font-size: vw_sp(96);
+    white-space: normal;
   }
 }
 

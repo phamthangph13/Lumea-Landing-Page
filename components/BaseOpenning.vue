@@ -315,55 +315,75 @@ export default {
   top: 50%;
   left: 50%;
   transform: translate3d(-50%, -50%, 0);
-  width: 63px;
+  width: 92px;
   height: 72px;
   text-align: right;
   opacity: 0;
   overflow: hidden;
+  font-family: $sixcaps;
+  font-size: 72px;
+  font-weight: 700;
 }
 
 .openning-num-first {
   position: absolute;
   top: 0;
   left: 0;
-  width: 14px;
+  width: 22px;
+  line-height: 72px;
+  word-break: break-all;
+  display: block;
 }
 
 .openning-num-second {
   position: absolute;
   top: 0;
-  left: 14px;
-  width: 14px;
+  left: 22px;
+  width: 22px;
+  line-height: 72px;
+  word-break: break-all;
+  display: block;
 }
 
 .openning-num-third {
   position: absolute;
   top: 0;
-  left: 29px;
-  width: 14px;
+  left: 44px;
+  width: 22px;
+  line-height: 72px;
+  word-break: break-all;
+  display: block;
 }
 
 .openning-num-forth {
   position: absolute;
   top: 0;
-  left: 14px;
-  width: 14px;
+  left: 22px;
+  width: 22px;
+  line-height: 72px;
+  word-break: break-all;
+  display: block;
   opacity: 0;
 }
 
 .openning-num-five {
   position: absolute;
   top: 0;
-  left: 29px;
-  width: 14px;
+  left: 44px;
+  width: 22px;
+  line-height: 72px;
+  word-break: break-all;
+  display: block;
   opacity: 0;
 }
 
 .openning-percent {
   position: absolute;
-  bottom: 0;
+  bottom: 10px;
   right: 0;
   font-size: 32px;
+  line-height: 1;
+  font-family: $sixcaps;
 }
 
 .openning-name {

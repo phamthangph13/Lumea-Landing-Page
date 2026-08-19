@@ -206,16 +206,16 @@ export default {
 
 .hero-title {
   position: relative;
-  font-size: vw(180);
+  font-size: vw(152);
   font-family: $sixcaps;
   letter-spacing: -0.002em;
 
   @include tab-vertical() {
-    font-size: vw(154);
+    font-size: vw(130);
   }
 
   @include sp() {
-    font-size: vw_sp(220);
+    font-size: vw_sp(200);
   }
 }
 
@@ -241,13 +241,6 @@ export default {
   }
 }
 
-// .is-android .hero-title-read-block-sp {
-//   &:nth-of-type(1) {
-//     position: relative;
-//     left: -8px;
-//   }
-// }
-
 .hero-title-wrapper {
   display: block;
   position: relative;
@@ -259,36 +252,42 @@ export default {
 }
 
 .hero-title-wrapper-01 {
-  width: vw(783);
-  margin: 0 0 24px vw(260);
+  width: auto;
+  max-width: vw(800);
+  margin: 0 0 24px vw(120);
 
   @include tab-vertical() {
-    width: vw(676);
+    max-width: vw(676);
+    margin: 0 0 20px vw(80);
   }
 }
 
 .hero-title-wrapper-02 {
   display: flex;
   justify-content: space-between;
-  width: vw(965);
+  width: auto;
+  max-width: 96vw;
   margin: 0 0 24px 0;
 }
 
 .hero-title-wrapper-03 {
-  width: vw(698);
-  margin: 0 0 22px vw(414);
+  width: auto;
+  max-width: vw(760);
+  margin: 0 0 22px vw(200);
 
   @include tab-vertical() {
-    width: vw(596);
+    max-width: vw(596);
+    margin: 0 0 18px vw(140);
   }
 }
 
 .hero-title-wrapper-04 {
-  width: vw(336);
-  margin: 0 0 0 vw(206);
+  width: auto;
+  max-width: vw(400);
+  margin: 0 0 0 vw(100);
 
   @include tab-vertical() {
-    width: vw(290);
+    max-width: vw(290);
   }
 }
 
@@ -347,28 +346,29 @@ export default {
 
 .hero-title-wrapper-02-base-area {
   position: relative;
-  padding: 12px 0 0 0;
-  font-size: vw(80);
+  padding: 12px 0 0 20px;
+  font-size: vw(64);
   letter-spacing: 0.0025em;
+  white-space: nowrap;
 }
 
 .hero-title-wrapper-02-base-area-helvetica {
   position: absolute;
-  top: vw(98);
+  top: vw(80);
   font-family: $helvetica;
-  font-size: vw(14);
+  font-size: vw(13);
 
   @include tab-vertical() {
-    top: vw(104);
+    top: vw(86);
   }
 }
 
 .hero-title-wrapper-02-base-area-helvetica-sometimes {
-  left: vw(169);
+  left: vw(140);
 }
 
 .hero-title-wrapper-02-base-area-helvetica-allways {
-  left: vw(380);
+  left: vw(310);
 }
 
 .hero-text-underline {
