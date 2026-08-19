@@ -10,14 +10,14 @@
           </span>
           <span class="pc-only">
             <span class="hero-title-wrapper hero-title-wrapper-01">
-              <AppBounceLine :state="isTextUnderlineState" :origin="'left'" :sp-animation="false" :width="840" :modifier="'index-hero'" />
+              <AppBounceLine :state="isTextUnderlineState" :origin="'left'" :sp-animation="false" :width="780" :modifier="'index-hero'" />
               <AppTextAnimation :state="isTextSegmentState" :rotate="$BASEROTATE.right" :text="'VIETNAMESE HOUSE'" :sp-animation="false" />
             </span>
             <span class="hero-title-wrapper hero-title-wrapper-02">
-              <AppBounceLine :state="isTextUnderlineState" :start="0.176" :origin="'right'" :width="1080" :sp-animation="false" :modifier="'index-hero'" />
+              <AppBounceLine :state="isTextUnderlineState" :start="0.176" :origin="'right'" :width="960" :sp-animation="false" :modifier="'index-hero'" />
               <AppTextAnimation :state="isTextSegmentState" :start="0.176" :rotate="$BASEROTATE.left" :text="'OF SCENT & RITUAL'" :sp-animation="false" />
               <span class="hero-title-wrapper-02-base-area">
-                <AppTextAnimation :state="isTextSegmentState" :start="0.264" :rotate="$BASEROTATE.left" :text="'( HÀNH TRÌNH TÌM VỀ CỘI NGUỒN )'" :sp-animation="false" />
+                <AppTextAnimation :state="isTextSegmentState" :start="0.264" :rotate="$BASEROTATE.left" :text="'( CĂN · MINH · HÒA )'" :sp-animation="false" />
                 <span class="hero-title-wrapper-02-base-area-helvetica hero-title-wrapper-02-base-area-helvetica-sometimes">
                   <AppTextAnimation :state="isTextSegmentState" :start="0.352" :rotate="$BASEROTATE.left" :text="'CĂN BẢN'" :sp-animation="false" />
                 </span>
@@ -27,11 +27,11 @@
               </span>
             </span>
             <span class="hero-title-wrapper hero-title-wrapper-03">
-              <AppBounceLine :state="isTextUnderlineState" :start="0.4" :origin="'left'" :width="700" :sp-animation="false" :modifier="'index-hero'" />
-              <AppTextAnimation :state="isTextSegmentState" :start="0.4" :rotate="$BASEROTATE.right" :text="'TRÂN TRỌNG BẢN SẮC VIỆT'" :sp-animation="false" />
+              <AppBounceLine :state="isTextUnderlineState" :start="0.4" :origin="'left'" :width="680" :sp-animation="false" :modifier="'index-hero'" />
+              <AppTextAnimation :state="isTextSegmentState" :start="0.4" :rotate="$BASEROTATE.right" :text="'TRÂN TRỌNG BẢN SẮC'" :sp-animation="false" />
             </span>
             <span class="hero-title-wrapper hero-title-wrapper-04">
-              <AppBounceLine :state="isTextUnderlineState" :start="0.42" :width="350" :origin="'right'" :sp-animation="false" :modifier="'index-hero'" />
+              <AppBounceLine :state="isTextUnderlineState" :start="0.42" :width="380" :origin="'right'" :sp-animation="false" :modifier="'index-hero'" />
               <AppTextAnimation :state="isTextSegmentState" :start="0.42" :rotate="$BASEROTATE.left" :text="'SÁNG TẠO TRI THỨC'" :sp-animation="false" />
             </span>
           </span>
@@ -197,7 +197,7 @@ export default {
 
 <style scoped lang="scss">
 .hero-inner {
-  padding: 92px 0;
+  padding: 92px 90px 92px 0;
 
   @include sp() {
     padding: 106px vw_sp(20);
@@ -206,16 +206,16 @@ export default {
 
 .hero-title {
   position: relative;
-  font-size: vw(152);
+  font-size: vw(134);
   font-family: $sixcaps;
   letter-spacing: -0.002em;
 
   @include tab-vertical() {
-    font-size: vw(130);
+    font-size: vw(116);
   }
 
   @include sp() {
-    font-size: vw_sp(200);
+    font-size: vw_sp(190);
   }
 }
 
@@ -254,37 +254,37 @@ export default {
 .hero-title-wrapper-01 {
   width: auto;
   max-width: vw(800);
-  margin: 0 0 24px vw(120);
+  margin: 0 0 24px vw(100);
 
   @include tab-vertical() {
     max-width: vw(676);
-    margin: 0 0 20px vw(80);
+    margin: 0 0 20px vw(60);
   }
 }
 
 .hero-title-wrapper-02 {
   display: flex;
   justify-content: space-between;
-  width: auto;
-  max-width: 96vw;
+  align-items: baseline;
+  width: 100%;
   margin: 0 0 24px 0;
 }
 
 .hero-title-wrapper-03 {
   width: auto;
   max-width: vw(760);
-  margin: 0 0 22px vw(200);
+  margin: 0 0 22px vw(100);
 
   @include tab-vertical() {
     max-width: vw(596);
-    margin: 0 0 18px vw(140);
+    margin: 0 0 18px vw(60);
   }
 }
 
 .hero-title-wrapper-04 {
   width: auto;
   max-width: vw(400);
-  margin: 0 0 0 vw(100);
+  margin: 0 0 0 vw(40);
 
   @include tab-vertical() {
     max-width: vw(290);
